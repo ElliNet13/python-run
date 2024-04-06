@@ -14,7 +14,7 @@
   if (isset($_GET['shell'])) {
       $param = $_GET['shell'];
 
-      if (!empty($param) && !strstr($param, "unlink") && !strstr($param, "fopen")) {
+      if (!empty($param) {
           echo "<py-script>$param</py-script>";
       } else {
           http_response_code(400);
