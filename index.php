@@ -11,6 +11,6 @@
 <body>
   <h1>Python runner</h1>
   <br><button onclick="shell()">Run</button>
-  <br><input id="code" type="text">
+  <br><textarea id="code" rows="4" cols="50"></textarea>
 </body>
 </html>
